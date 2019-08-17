@@ -4,30 +4,30 @@
             "outputFile": "/Users/rizkycitrakurnia/Desktop/work-manager-sample/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-be/values-be.xml",
             "map": [
                 {
-                    "source": "/Users/rizkycitrakurnia/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/d0ee09b85e3aade3a13503209d16ce53/res/values-be/values-be.xml",
+                    "source": "/Users/rizkycitrakurnia/.gradle/caches/transforms-2/files-2.1/f32147d5bfea0032e5072c077222487b/res/values-be/values-be.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
                         "startOffsets": "55",
-                        "endColumns": "108",
-                        "endOffsets": "159"
+                        "endColumns": "100",
+                        "endOffsets": "151"
                     },
                     "to": {
-                        "startLines": "20",
+                        "startLines": "30",
                         "startColumns": "4",
-                        "startOffsets": "1974",
-                        "endColumns": "108",
-                        "endOffsets": "2078"
+                        "startOffsets": "2916",
+                        "endColumns": "100",
+                        "endOffsets": "3012"
                     }
                 },
                 {
-                    "source": "/Users/rizkycitrakurnia/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/9d9caec1a9a32c477bc861235ec640f0/res/values-be/values-be.xml",
+                    "source": "/Users/rizkycitrakurnia/.gradle/caches/transforms-2/files-2.1/83b96b9c5870b134535994bedc271c4f/res/values-be/values-be.xml",
                     "from": {
-                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "105,225,328,444,530,638,756,835,913,996,1102,1208,1306,1414,1519,1624,1793,1893",
-                        "endColumns": "119,102,115,85,107,117,78,77,82,105,105,97,107,104,104,168,99,80",
-                        "endOffsets": "220,323,439,525,633,751,830,908,991,1097,1203,1301,1409,1514,1619,1788,1888,1969"
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "105,225,328,444,530,635,754,834,912,1004,1097,1192,1286,1382,1476,1572,1667,1759,1851,1931,2037,2142,2240,2348,2454,2562,2735,2835",
+                        "endColumns": "119,102,115,85,104,118,79,77,91,92,94,93,95,93,95,94,91,91,79,105,104,97,107,105,107,172,99,80",
+                        "endOffsets": "220,323,439,525,630,749,829,907,999,1092,1187,1281,1377,1471,1567,1662,1754,1846,1926,2032,2137,2235,2343,2449,2557,2730,2830,2911"
                     }
                 }
             ]

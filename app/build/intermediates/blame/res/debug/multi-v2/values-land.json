@@ -4,13 +4,13 @@
             "outputFile": "/Users/rizkycitrakurnia/Desktop/work-manager-sample/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-land/values-land.xml",
             "map": [
                 {
-                    "source": "/Users/rizkycitrakurnia/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/9d9caec1a9a32c477bc861235ec640f0/res/values-land/values-land.xml",
+                    "source": "/Users/rizkycitrakurnia/.gradle/caches/transforms-2/files-2.1/83b96b9c5870b134535994bedc271c4f/res/values-land/values-land.xml",
                     "from": {
-                        "startLines": "2,3,4,5",
-                        "startColumns": "4,4,4,4",
-                        "startOffsets": "55,125,189,260",
-                        "endColumns": "69,63,70,67",
-                        "endOffsets": "120,184,255,323"
+                        "startLines": "2,3,4",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "55,125,196",
+                        "endColumns": "69,70,67",
+                        "endOffsets": "120,191,259"
                     }
                 }
             ]

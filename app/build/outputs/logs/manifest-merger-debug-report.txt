@@ -1,106 +1,192 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/rizkycitrakurnia/Desktop/work-manager-sample/app/src/main/AndroidManifest.xml:2:1-24:12
-INJECTED from /Users/rizkycitrakurnia/Desktop/work-manager-sample/app/src/main/AndroidManifest.xml:2:1-24:12
-INJECTED from /Users/rizkycitrakurnia/Desktop/work-manager-sample/app/src/main/AndroidManifest.xml:2:1-24:12
-INJECTED from /Users/rizkycitrakurnia/Desktop/work-manager-sample/app/src/main/AndroidManifest.xml:2:1-24:12
-MERGED from [com.android.support:appcompat-v7:27.1.1] /Users/rizkycitrakurnia/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/9d9caec1a9a32c477bc861235ec640f0/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support.constraint:constraint-layout:1.1.2] /Users/rizkycitrakurnia/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.2.aar/ec53bda82448886306af5baa9e9ff33d/AndroidManifest.xml:2:1-11:12
-MERGED from [com.android.support:support-fragment:27.1.1] /Users/rizkycitrakurnia/.gradle/caches/transforms-1/files-1.1/support-fragment-27.1.1.aar/4a183186b657eb0171b6ac998730afbe/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:animated-vector-drawable:27.1.1] /Users/rizkycitrakurnia/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.1.1.aar/eac6198eac97a9177d44c069d7ec290a/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-core-ui:27.1.1] /Users/rizkycitrakurnia/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.1.1.aar/5f0731828b71b180f6c26bb77d41ceea/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-core-utils:27.1.1] /Users/rizkycitrakurnia/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.1.1.aar/e95504d26d4ed199ed5e053fd96538c4/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-vector-drawable:27.1.1] /Users/rizkycitrakurnia/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.1.1.aar/2f9339070f08230d0d462e76340e25b4/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-compat:27.1.1] /Users/rizkycitrakurnia/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/d0ee09b85e3aade3a13503209d16ce53/AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.lifecycle:livedata-core:1.1.0] /Users/rizkycitrakurnia/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.0.aar/3bfe1ddb52ca65b335b561d32ab2555d/AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /Users/rizkycitrakurnia/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.0.aar/f5a31e8099372804d6378f6d6791d1de/AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.lifecycle:runtime:1.1.0] /Users/rizkycitrakurnia/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/e5b0d4b7f7bb3a9e033f19ce5a679ced/AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.core:runtime:1.1.0] /Users/rizkycitrakurnia/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/a408dc6a1aa1d83cc7f78da9a941de29/AndroidManifest.xml:17:1-22:12
-INJECTED from /Users/rizkycitrakurnia/Desktop/work-manager-sample/app/src/main/AndroidManifest.xml:2:1-24:12
-INJECTED from /Users/rizkycitrakurnia/Desktop/work-manager-sample/app/src/main/AndroidManifest.xml:2:1-24:12
-INJECTED from /Users/rizkycitrakurnia/Desktop/work-manager-sample/app/src/main/AndroidManifest.xml:2:1-24:12
+ADDED from /Users/rizkycitrakurnia/Desktop/work-manager-sample/app/src/main/AndroidManifest.xml:18:1-44:12
+INJECTED from /Users/rizkycitrakurnia/Desktop/work-manager-sample/app/src/main/AndroidManifest.xml:18:1-44:12
+INJECTED from /Users/rizkycitrakurnia/Desktop/work-manager-sample/app/src/main/AndroidManifest.xml:18:1-44:12
+INJECTED from /Users/rizkycitrakurnia/Desktop/work-manager-sample/app/src/main/AndroidManifest.xml:18:1-44:12
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.0-beta2] /Users/rizkycitrakurnia/.gradle/caches/transforms-2/files-2.1/0ee469d7372204473768defc156c0874/AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.appcompat:appcompat:1.1.0-rc01] /Users/rizkycitrakurnia/.gradle/caches/transforms-2/files-2.1/83b96b9c5870b134535994bedc271c4f/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.0.0] /Users/rizkycitrakurnia/.gradle/caches/transforms-2/files-2.1/e58f3410edfabd30ef83089ef20575f1/AndroidManifest.xml:17:1-25:12
+MERGED from [androidx.work:work-runtime-ktx:2.1.0] /Users/rizkycitrakurnia/.gradle/caches/transforms-2/files-2.1/5f5cd24d9824136c202cb79c696f791d/AndroidManifest.xml:17:1-24:12
+MERGED from [com.github.bumptech.glide:glide:4.9.0] /Users/rizkycitrakurnia/.gradle/caches/transforms-2/files-2.1/6e68036cb8c7d29bc8c49f4399faa265/AndroidManifest.xml:2:1-12:12
+MERGED from [com.jakewharton.timber:timber:4.7.1] /Users/rizkycitrakurnia/.gradle/caches/transforms-2/files-2.1/4aa96235ebea073ee325a2ace359aace/AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.fragment:fragment:1.1.0-rc01] /Users/rizkycitrakurnia/.gradle/caches/transforms-2/files-2.1/31a8b891cbe9834fc1d20025fdb7631c/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0-rc01] /Users/rizkycitrakurnia/.gradle/caches/transforms-2/files-2.1/eca40fcf85631385593ce2f90f65560c/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/rizkycitrakurnia/.gradle/caches/transforms-2/files-2.1/bca8bc9ec40ba737bf416309d7bd86a0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.work:work-runtime:2.1.0] /Users/rizkycitrakurnia/.gradle/caches/transforms-2/files-2.1/2130a4fadc98479621255d24e98bc30a/AndroidManifest.xml:17:1-125:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/rizkycitrakurnia/.gradle/caches/transforms-2/files-2.1/56a66febbba10206d7a8b05497efa797/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] /Users/rizkycitrakurnia/.gradle/caches/transforms-2/files-2.1/aad41b07f5bc86521b9f2f83353c3e09/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.activity:activity:1.0.0-rc01] /Users/rizkycitrakurnia/.gradle/caches/transforms-2/files-2.1/795771f20216ad20dee93889cb7a996f/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0-rc01] /Users/rizkycitrakurnia/.gradle/caches/transforms-2/files-2.1/c608a7524ccb0786338c726322f2d679/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0-rc01] /Users/rizkycitrakurnia/.gradle/caches/transforms-2/files-2.1/2a202df172b8c8871453e8c6b687c9d3/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.customview:customview:1.0.0] /Users/rizkycitrakurnia/.gradle/caches/transforms-2/files-2.1/db4989b2be84e8973c7f76983677b08e/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.room:room-runtime:2.1.0] /Users/rizkycitrakurnia/.gradle/caches/transforms-2/files-2.1/f73e05ee384a83395c21fed1ccdcf3b2/AndroidManifest.xml:17:1-30:12
+MERGED from [androidx.core:core:1.1.0-rc01] /Users/rizkycitrakurnia/.gradle/caches/transforms-2/files-2.1/f32147d5bfea0032e5072c077222487b/AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/rizkycitrakurnia/.gradle/caches/transforms-2/files-2.1/e784b91e8001a7c9785832e9823d75ae/AndroidManifest.xml:17:1-22:12
+MERGED from [com.github.bumptech.glide:gifdecoder:4.9.0] /Users/rizkycitrakurnia/.gradle/caches/transforms-2/files-2.1/f52d08a4f4ab1dbf4718e040ec1a8c1a/AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0-rc01] /Users/rizkycitrakurnia/.gradle/caches/transforms-2/files-2.1/9855ff4953f55391f2225034e586da7c/AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.lifecycle:lifecycle-process:2.0.0] /Users/rizkycitrakurnia/.gradle/caches/transforms-2/files-2.1/5a57c3e62430f6e023e0805137297779/AndroidManifest.xml:17:1-30:12
+MERGED from [androidx.lifecycle:lifecycle-service:2.0.0] /Users/rizkycitrakurnia/.gradle/caches/transforms-2/files-2.1/b7bea5576de5f055881f6b517d7a9b8f/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0-rc01] /Users/rizkycitrakurnia/.gradle/caches/transforms-2/files-2.1/9205a509cd059f9f0132c8da8ebe0b60/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0-rc01] /Users/rizkycitrakurnia/.gradle/caches/transforms-2/files-2.1/a7967140b3571ce39d71550e34f5b9d7/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.savedstate:savedstate:1.0.0-rc01] /Users/rizkycitrakurnia/.gradle/caches/transforms-2/files-2.1/ed3a7b0561f1ed29566f09730227dd4b/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/rizkycitrakurnia/.gradle/caches/transforms-2/files-2.1/42e750257dc64c5148dd80134981f509/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/rizkycitrakurnia/.gradle/caches/transforms-2/files-2.1/7c2426c6875a857dce1d08fc7ea04be2/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/rizkycitrakurnia/.gradle/caches/transforms-2/files-2.1/01efba8eb4103c40d70731c99044f92d/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.arch.core:core-runtime:2.0.1] /Users/rizkycitrakurnia/.gradle/caches/transforms-2/files-2.1/bbf1dd016f4818bb4fb36b44b74410d3/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.sqlite:sqlite-framework:2.0.1] /Users/rizkycitrakurnia/.gradle/caches/transforms-2/files-2.1/42c27cf9011fcc766a35501458766088/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.sqlite:sqlite:2.0.1] /Users/rizkycitrakurnia/.gradle/caches/transforms-2/files-2.1/be663770cedb0cacca629acb42c8a4a5/AndroidManifest.xml:17:1-22:12
+INJECTED from /Users/rizkycitrakurnia/Desktop/work-manager-sample/app/src/main/AndroidManifest.xml:18:1-44:12
+INJECTED from /Users/rizkycitrakurnia/Desktop/work-manager-sample/app/src/main/AndroidManifest.xml:18:1-44:12
+INJECTED from /Users/rizkycitrakurnia/Desktop/work-manager-sample/app/src/main/AndroidManifest.xml:18:1-44:12
 	package
-		ADDED from /Users/rizkycitrakurnia/Desktop/work-manager-sample/app/src/main/AndroidManifest.xml:3:3-52
+		ADDED from /Users/rizkycitrakurnia/Desktop/work-manager-sample/app/src/main/AndroidManifest.xml:18:11-43
 		INJECTED from /Users/rizkycitrakurnia/Desktop/work-manager-sample/app/src/main/AndroidManifest.xml
 		INJECTED from /Users/rizkycitrakurnia/Desktop/work-manager-sample/app/src/main/AndroidManifest.xml
 	android:versionName
 		INJECTED from /Users/rizkycitrakurnia/Desktop/work-manager-sample/app/src/main/AndroidManifest.xml
-		ADDED from /Users/rizkycitrakurnia/Desktop/work-manager-sample/app/src/main/AndroidManifest.xml:2:1-24:12
+		ADDED from /Users/rizkycitrakurnia/Desktop/work-manager-sample/app/src/main/AndroidManifest.xml:18:1-44:12
 		INJECTED from /Users/rizkycitrakurnia/Desktop/work-manager-sample/app/src/main/AndroidManifest.xml
 	android:versionCode
 		INJECTED from /Users/rizkycitrakurnia/Desktop/work-manager-sample/app/src/main/AndroidManifest.xml
-		ADDED from /Users/rizkycitrakurnia/Desktop/work-manager-sample/app/src/main/AndroidManifest.xml:2:1-24:12
+		ADDED from /Users/rizkycitrakurnia/Desktop/work-manager-sample/app/src/main/AndroidManifest.xml:18:1-44:12
 		INJECTED from /Users/rizkycitrakurnia/Desktop/work-manager-sample/app/src/main/AndroidManifest.xml
 	xmlns:android
-		ADDED from /Users/rizkycitrakurnia/Desktop/work-manager-sample/app/src/main/AndroidManifest.xml:2:11-69
+		ADDED from /Users/rizkycitrakurnia/Desktop/work-manager-sample/app/src/main/AndroidManifest.xml:19:11-69
 uses-permission#android.permission.INTERNET
-ADDED from /Users/rizkycitrakurnia/Desktop/work-manager-sample/app/src/main/AndroidManifest.xml:5:3-65
+ADDED from /Users/rizkycitrakurnia/Desktop/work-manager-sample/app/src/main/AndroidManifest.xml:21:5-67
 	android:name
-		ADDED from /Users/rizkycitrakurnia/Desktop/work-manager-sample/app/src/main/AndroidManifest.xml:5:20-62
+		ADDED from /Users/rizkycitrakurnia/Desktop/work-manager-sample/app/src/main/AndroidManifest.xml:21:22-64
 uses-permission#android.permission.READ_EXTERNAL_STORAGE
-ADDED from /Users/rizkycitrakurnia/Desktop/work-manager-sample/app/src/main/AndroidManifest.xml:6:3-78
+ADDED from /Users/rizkycitrakurnia/Desktop/work-manager-sample/app/src/main/AndroidManifest.xml:22:5-80
 	android:name
-		ADDED from /Users/rizkycitrakurnia/Desktop/work-manager-sample/app/src/main/AndroidManifest.xml:6:20-75
+		ADDED from /Users/rizkycitrakurnia/Desktop/work-manager-sample/app/src/main/AndroidManifest.xml:22:22-77
 uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
-ADDED from /Users/rizkycitrakurnia/Desktop/work-manager-sample/app/src/main/AndroidManifest.xml:7:3-79
+ADDED from /Users/rizkycitrakurnia/Desktop/work-manager-sample/app/src/main/AndroidManifest.xml:23:5-81
 	android:name
-		ADDED from /Users/rizkycitrakurnia/Desktop/work-manager-sample/app/src/main/AndroidManifest.xml:7:20-76
+		ADDED from /Users/rizkycitrakurnia/Desktop/work-manager-sample/app/src/main/AndroidManifest.xml:23:22-78
 application
-ADDED from /Users/rizkycitrakurnia/Desktop/work-manager-sample/app/src/main/AndroidManifest.xml:9:3-22:17
-MERGED from [com.android.support.constraint:constraint-layout:1.1.2] /Users/rizkycitrakurnia/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.2.aar/ec53bda82448886306af5baa9e9ff33d/AndroidManifest.xml:9:5-20
-MERGED from [com.android.support.constraint:constraint-layout:1.1.2] /Users/rizkycitrakurnia/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.2.aar/ec53bda82448886306af5baa9e9ff33d/AndroidManifest.xml:9:5-20
+ADDED from /Users/rizkycitrakurnia/Desktop/work-manager-sample/app/src/main/AndroidManifest.xml:25:5-42:19
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.0-beta2] /Users/rizkycitrakurnia/.gradle/caches/transforms-2/files-2.1/0ee469d7372204473768defc156c0874/AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.0-beta2] /Users/rizkycitrakurnia/.gradle/caches/transforms-2/files-2.1/0ee469d7372204473768defc156c0874/AndroidManifest.xml:9:5-20
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.0.0] /Users/rizkycitrakurnia/.gradle/caches/transforms-2/files-2.1/e58f3410edfabd30ef83089ef20575f1/AndroidManifest.xml:22:5-23:19
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.0.0] /Users/rizkycitrakurnia/.gradle/caches/transforms-2/files-2.1/e58f3410edfabd30ef83089ef20575f1/AndroidManifest.xml:22:5-23:19
+MERGED from [com.github.bumptech.glide:glide:4.9.0] /Users/rizkycitrakurnia/.gradle/caches/transforms-2/files-2.1/6e68036cb8c7d29bc8c49f4399faa265/AndroidManifest.xml:10:5-20
+MERGED from [com.github.bumptech.glide:glide:4.9.0] /Users/rizkycitrakurnia/.gradle/caches/transforms-2/files-2.1/6e68036cb8c7d29bc8c49f4399faa265/AndroidManifest.xml:10:5-20
+MERGED from [com.jakewharton.timber:timber:4.7.1] /Users/rizkycitrakurnia/.gradle/caches/transforms-2/files-2.1/4aa96235ebea073ee325a2ace359aace/AndroidManifest.xml:7:5-20
+MERGED from [com.jakewharton.timber:timber:4.7.1] /Users/rizkycitrakurnia/.gradle/caches/transforms-2/files-2.1/4aa96235ebea073ee325a2ace359aace/AndroidManifest.xml:7:5-20
+MERGED from [androidx.work:work-runtime:2.1.0] /Users/rizkycitrakurnia/.gradle/caches/transforms-2/files-2.1/2130a4fadc98479621255d24e98bc30a/AndroidManifest.xml:29:5-123:19
+MERGED from [androidx.work:work-runtime:2.1.0] /Users/rizkycitrakurnia/.gradle/caches/transforms-2/files-2.1/2130a4fadc98479621255d24e98bc30a/AndroidManifest.xml:29:5-123:19
+MERGED from [androidx.room:room-runtime:2.1.0] /Users/rizkycitrakurnia/.gradle/caches/transforms-2/files-2.1/f73e05ee384a83395c21fed1ccdcf3b2/AndroidManifest.xml:24:5-28:19
+MERGED from [androidx.room:room-runtime:2.1.0] /Users/rizkycitrakurnia/.gradle/caches/transforms-2/files-2.1/f73e05ee384a83395c21fed1ccdcf3b2/AndroidManifest.xml:24:5-28:19
+MERGED from [androidx.core:core:1.1.0-rc01] /Users/rizkycitrakurnia/.gradle/caches/transforms-2/files-2.1/f32147d5bfea0032e5072c077222487b/AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.1.0-rc01] /Users/rizkycitrakurnia/.gradle/caches/transforms-2/files-2.1/f32147d5bfea0032e5072c077222487b/AndroidManifest.xml:24:5-89
+MERGED from [com.github.bumptech.glide:gifdecoder:4.9.0] /Users/rizkycitrakurnia/.gradle/caches/transforms-2/files-2.1/f52d08a4f4ab1dbf4718e040ec1a8c1a/AndroidManifest.xml:9:5-20
+MERGED from [com.github.bumptech.glide:gifdecoder:4.9.0] /Users/rizkycitrakurnia/.gradle/caches/transforms-2/files-2.1/f52d08a4f4ab1dbf4718e040ec1a8c1a/AndroidManifest.xml:9:5-20
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0-rc01] /Users/rizkycitrakurnia/.gradle/caches/transforms-2/files-2.1/9855ff4953f55391f2225034e586da7c/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0-rc01] /Users/rizkycitrakurnia/.gradle/caches/transforms-2/files-2.1/9855ff4953f55391f2225034e586da7c/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.0.0] /Users/rizkycitrakurnia/.gradle/caches/transforms-2/files-2.1/5a57c3e62430f6e023e0805137297779/AndroidManifest.xml:22:5-28:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.0.0] /Users/rizkycitrakurnia/.gradle/caches/transforms-2/files-2.1/5a57c3e62430f6e023e0805137297779/AndroidManifest.xml:22:5-28:19
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.1.0-rc01] /Users/rizkycitrakurnia/.gradle/caches/transforms-2/files-2.1/f32147d5bfea0032e5072c077222487b/AndroidManifest.xml:24:18-86
 	android:supportsRtl
-		ADDED from /Users/rizkycitrakurnia/Desktop/work-manager-sample/app/src/main/AndroidManifest.xml:13:5-31
+		ADDED from /Users/rizkycitrakurnia/Desktop/work-manager-sample/app/src/main/AndroidManifest.xml:30:9-35
 	android:label
-		ADDED from /Users/rizkycitrakurnia/Desktop/work-manager-sample/app/src/main/AndroidManifest.xml:11:5-37
+		ADDED from /Users/rizkycitrakurnia/Desktop/work-manager-sample/app/src/main/AndroidManifest.xml:28:9-41
 	android:roundIcon
-		ADDED from /Users/rizkycitrakurnia/Desktop/work-manager-sample/app/src/main/AndroidManifest.xml:12:5-50
+		ADDED from /Users/rizkycitrakurnia/Desktop/work-manager-sample/app/src/main/AndroidManifest.xml:29:9-54
 	android:icon
-		ADDED from /Users/rizkycitrakurnia/Desktop/work-manager-sample/app/src/main/AndroidManifest.xml:10:5-39
+		ADDED from /Users/rizkycitrakurnia/Desktop/work-manager-sample/app/src/main/AndroidManifest.xml:27:9-43
+	android:allowBackup
+		ADDED from /Users/rizkycitrakurnia/Desktop/work-manager-sample/app/src/main/AndroidManifest.xml:26:9-35
 	android:theme
-		ADDED from /Users/rizkycitrakurnia/Desktop/work-manager-sample/app/src/main/AndroidManifest.xml:14:5-36
-activity#com.raywenderlich.android.photouploader.MainActivity
-ADDED from /Users/rizkycitrakurnia/Desktop/work-manager-sample/app/src/main/AndroidManifest.xml:15:5-21:16
+		ADDED from /Users/rizkycitrakurnia/Desktop/work-manager-sample/app/src/main/AndroidManifest.xml:31:9-40
+activity#com.example.background.SelectImageActivity
+ADDED from /Users/rizkycitrakurnia/Desktop/work-manager-sample/app/src/main/AndroidManifest.xml:33:9-38:20
 	android:name
-		ADDED from /Users/rizkycitrakurnia/Desktop/work-manager-sample/app/src/main/AndroidManifest.xml:15:15-43
+		ADDED from /Users/rizkycitrakurnia/Desktop/work-manager-sample/app/src/main/AndroidManifest.xml:33:19-54
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from /Users/rizkycitrakurnia/Desktop/work-manager-sample/app/src/main/AndroidManifest.xml:16:7-20:23
+ADDED from /Users/rizkycitrakurnia/Desktop/work-manager-sample/app/src/main/AndroidManifest.xml:34:13-37:29
 action#android.intent.action.MAIN
-ADDED from /Users/rizkycitrakurnia/Desktop/work-manager-sample/app/src/main/AndroidManifest.xml:17:9-61
+ADDED from /Users/rizkycitrakurnia/Desktop/work-manager-sample/app/src/main/AndroidManifest.xml:35:17-69
 	android:name
-		ADDED from /Users/rizkycitrakurnia/Desktop/work-manager-sample/app/src/main/AndroidManifest.xml:17:17-58
+		ADDED from /Users/rizkycitrakurnia/Desktop/work-manager-sample/app/src/main/AndroidManifest.xml:35:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /Users/rizkycitrakurnia/Desktop/work-manager-sample/app/src/main/AndroidManifest.xml:19:9-69
+ADDED from /Users/rizkycitrakurnia/Desktop/work-manager-sample/app/src/main/AndroidManifest.xml:36:17-77
 	android:name
-		ADDED from /Users/rizkycitrakurnia/Desktop/work-manager-sample/app/src/main/AndroidManifest.xml:19:19-66
+		ADDED from /Users/rizkycitrakurnia/Desktop/work-manager-sample/app/src/main/AndroidManifest.xml:36:27-74
+activity#com.example.background.BlurActivity
+ADDED from /Users/rizkycitrakurnia/Desktop/work-manager-sample/app/src/main/AndroidManifest.xml:40:9-50
+	android:name
+		ADDED from /Users/rizkycitrakurnia/Desktop/work-manager-sample/app/src/main/AndroidManifest.xml:40:19-47
 uses-sdk
 INJECTED from /Users/rizkycitrakurnia/Desktop/work-manager-sample/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /Users/rizkycitrakurnia/Desktop/work-manager-sample/app/src/main/AndroidManifest.xml
 INJECTED from /Users/rizkycitrakurnia/Desktop/work-manager-sample/app/src/main/AndroidManifest.xml
-MERGED from [com.android.support:appcompat-v7:27.1.1] /Users/rizkycitrakurnia/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/9d9caec1a9a32c477bc861235ec640f0/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:appcompat-v7:27.1.1] /Users/rizkycitrakurnia/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/9d9caec1a9a32c477bc861235ec640f0/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support.constraint:constraint-layout:1.1.2] /Users/rizkycitrakurnia/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.2.aar/ec53bda82448886306af5baa9e9ff33d/AndroidManifest.xml:5:5-7:41
-MERGED from [com.android.support.constraint:constraint-layout:1.1.2] /Users/rizkycitrakurnia/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.2.aar/ec53bda82448886306af5baa9e9ff33d/AndroidManifest.xml:5:5-7:41
-MERGED from [com.android.support:support-fragment:27.1.1] /Users/rizkycitrakurnia/.gradle/caches/transforms-1/files-1.1/support-fragment-27.1.1.aar/4a183186b657eb0171b6ac998730afbe/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-fragment:27.1.1] /Users/rizkycitrakurnia/.gradle/caches/transforms-1/files-1.1/support-fragment-27.1.1.aar/4a183186b657eb0171b6ac998730afbe/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:animated-vector-drawable:27.1.1] /Users/rizkycitrakurnia/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.1.1.aar/eac6198eac97a9177d44c069d7ec290a/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:animated-vector-drawable:27.1.1] /Users/rizkycitrakurnia/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.1.1.aar/eac6198eac97a9177d44c069d7ec290a/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-ui:27.1.1] /Users/rizkycitrakurnia/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.1.1.aar/5f0731828b71b180f6c26bb77d41ceea/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-ui:27.1.1] /Users/rizkycitrakurnia/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.1.1.aar/5f0731828b71b180f6c26bb77d41ceea/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-utils:27.1.1] /Users/rizkycitrakurnia/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.1.1.aar/e95504d26d4ed199ed5e053fd96538c4/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-utils:27.1.1] /Users/rizkycitrakurnia/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.1.1.aar/e95504d26d4ed199ed5e053fd96538c4/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:27.1.1] /Users/rizkycitrakurnia/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.1.1.aar/2f9339070f08230d0d462e76340e25b4/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:27.1.1] /Users/rizkycitrakurnia/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.1.1.aar/2f9339070f08230d0d462e76340e25b4/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-compat:27.1.1] /Users/rizkycitrakurnia/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/d0ee09b85e3aade3a13503209d16ce53/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-compat:27.1.1] /Users/rizkycitrakurnia/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/d0ee09b85e3aade3a13503209d16ce53/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:livedata-core:1.1.0] /Users/rizkycitrakurnia/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.0.aar/3bfe1ddb52ca65b335b561d32ab2555d/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:livedata-core:1.1.0] /Users/rizkycitrakurnia/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.0.aar/3bfe1ddb52ca65b335b561d32ab2555d/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /Users/rizkycitrakurnia/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.0.aar/f5a31e8099372804d6378f6d6791d1de/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /Users/rizkycitrakurnia/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.0.aar/f5a31e8099372804d6378f6d6791d1de/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:runtime:1.1.0] /Users/rizkycitrakurnia/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/e5b0d4b7f7bb3a9e033f19ce5a679ced/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:runtime:1.1.0] /Users/rizkycitrakurnia/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/e5b0d4b7f7bb3a9e033f19ce5a679ced/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.core:runtime:1.1.0] /Users/rizkycitrakurnia/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/a408dc6a1aa1d83cc7f78da9a941de29/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.core:runtime:1.1.0] /Users/rizkycitrakurnia/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/a408dc6a1aa1d83cc7f78da9a941de29/AndroidManifest.xml:20:5-44
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.0-beta2] /Users/rizkycitrakurnia/.gradle/caches/transforms-2/files-2.1/0ee469d7372204473768defc156c0874/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.0-beta2] /Users/rizkycitrakurnia/.gradle/caches/transforms-2/files-2.1/0ee469d7372204473768defc156c0874/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.appcompat:appcompat:1.1.0-rc01] /Users/rizkycitrakurnia/.gradle/caches/transforms-2/files-2.1/83b96b9c5870b134535994bedc271c4f/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat:1.1.0-rc01] /Users/rizkycitrakurnia/.gradle/caches/transforms-2/files-2.1/83b96b9c5870b134535994bedc271c4f/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.0.0] /Users/rizkycitrakurnia/.gradle/caches/transforms-2/files-2.1/e58f3410edfabd30ef83089ef20575f1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.0.0] /Users/rizkycitrakurnia/.gradle/caches/transforms-2/files-2.1/e58f3410edfabd30ef83089ef20575f1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.work:work-runtime-ktx:2.1.0] /Users/rizkycitrakurnia/.gradle/caches/transforms-2/files-2.1/5f5cd24d9824136c202cb79c696f791d/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.work:work-runtime-ktx:2.1.0] /Users/rizkycitrakurnia/.gradle/caches/transforms-2/files-2.1/5f5cd24d9824136c202cb79c696f791d/AndroidManifest.xml:20:5-22:41
+MERGED from [com.github.bumptech.glide:glide:4.9.0] /Users/rizkycitrakurnia/.gradle/caches/transforms-2/files-2.1/6e68036cb8c7d29bc8c49f4399faa265/AndroidManifest.xml:6:5-8:41
+MERGED from [com.github.bumptech.glide:glide:4.9.0] /Users/rizkycitrakurnia/.gradle/caches/transforms-2/files-2.1/6e68036cb8c7d29bc8c49f4399faa265/AndroidManifest.xml:6:5-8:41
+MERGED from [com.jakewharton.timber:timber:4.7.1] /Users/rizkycitrakurnia/.gradle/caches/transforms-2/files-2.1/4aa96235ebea073ee325a2ace359aace/AndroidManifest.xml:5:5-43
+MERGED from [com.jakewharton.timber:timber:4.7.1] /Users/rizkycitrakurnia/.gradle/caches/transforms-2/files-2.1/4aa96235ebea073ee325a2ace359aace/AndroidManifest.xml:5:5-43
+MERGED from [androidx.fragment:fragment:1.1.0-rc01] /Users/rizkycitrakurnia/.gradle/caches/transforms-2/files-2.1/31a8b891cbe9834fc1d20025fdb7631c/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.1.0-rc01] /Users/rizkycitrakurnia/.gradle/caches/transforms-2/files-2.1/31a8b891cbe9834fc1d20025fdb7631c/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0-rc01] /Users/rizkycitrakurnia/.gradle/caches/transforms-2/files-2.1/eca40fcf85631385593ce2f90f65560c/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0-rc01] /Users/rizkycitrakurnia/.gradle/caches/transforms-2/files-2.1/eca40fcf85631385593ce2f90f65560c/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/rizkycitrakurnia/.gradle/caches/transforms-2/files-2.1/bca8bc9ec40ba737bf416309d7bd86a0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/rizkycitrakurnia/.gradle/caches/transforms-2/files-2.1/bca8bc9ec40ba737bf416309d7bd86a0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.work:work-runtime:2.1.0] /Users/rizkycitrakurnia/.gradle/caches/transforms-2/files-2.1/2130a4fadc98479621255d24e98bc30a/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.work:work-runtime:2.1.0] /Users/rizkycitrakurnia/.gradle/caches/transforms-2/files-2.1/2130a4fadc98479621255d24e98bc30a/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/rizkycitrakurnia/.gradle/caches/transforms-2/files-2.1/56a66febbba10206d7a8b05497efa797/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/rizkycitrakurnia/.gradle/caches/transforms-2/files-2.1/56a66febbba10206d7a8b05497efa797/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/rizkycitrakurnia/.gradle/caches/transforms-2/files-2.1/aad41b07f5bc86521b9f2f83353c3e09/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/rizkycitrakurnia/.gradle/caches/transforms-2/files-2.1/aad41b07f5bc86521b9f2f83353c3e09/AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.0.0-rc01] /Users/rizkycitrakurnia/.gradle/caches/transforms-2/files-2.1/795771f20216ad20dee93889cb7a996f/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.0.0-rc01] /Users/rizkycitrakurnia/.gradle/caches/transforms-2/files-2.1/795771f20216ad20dee93889cb7a996f/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0-rc01] /Users/rizkycitrakurnia/.gradle/caches/transforms-2/files-2.1/c608a7524ccb0786338c726322f2d679/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0-rc01] /Users/rizkycitrakurnia/.gradle/caches/transforms-2/files-2.1/c608a7524ccb0786338c726322f2d679/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0-rc01] /Users/rizkycitrakurnia/.gradle/caches/transforms-2/files-2.1/2a202df172b8c8871453e8c6b687c9d3/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0-rc01] /Users/rizkycitrakurnia/.gradle/caches/transforms-2/files-2.1/2a202df172b8c8871453e8c6b687c9d3/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.0.0] /Users/rizkycitrakurnia/.gradle/caches/transforms-2/files-2.1/db4989b2be84e8973c7f76983677b08e/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /Users/rizkycitrakurnia/.gradle/caches/transforms-2/files-2.1/db4989b2be84e8973c7f76983677b08e/AndroidManifest.xml:20:5-44
+MERGED from [androidx.room:room-runtime:2.1.0] /Users/rizkycitrakurnia/.gradle/caches/transforms-2/files-2.1/f73e05ee384a83395c21fed1ccdcf3b2/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.room:room-runtime:2.1.0] /Users/rizkycitrakurnia/.gradle/caches/transforms-2/files-2.1/f73e05ee384a83395c21fed1ccdcf3b2/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.1.0-rc01] /Users/rizkycitrakurnia/.gradle/caches/transforms-2/files-2.1/f32147d5bfea0032e5072c077222487b/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.1.0-rc01] /Users/rizkycitrakurnia/.gradle/caches/transforms-2/files-2.1/f32147d5bfea0032e5072c077222487b/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/rizkycitrakurnia/.gradle/caches/transforms-2/files-2.1/e784b91e8001a7c9785832e9823d75ae/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/rizkycitrakurnia/.gradle/caches/transforms-2/files-2.1/e784b91e8001a7c9785832e9823d75ae/AndroidManifest.xml:20:5-44
+MERGED from [com.github.bumptech.glide:gifdecoder:4.9.0] /Users/rizkycitrakurnia/.gradle/caches/transforms-2/files-2.1/f52d08a4f4ab1dbf4718e040ec1a8c1a/AndroidManifest.xml:5:5-7:41
+MERGED from [com.github.bumptech.glide:gifdecoder:4.9.0] /Users/rizkycitrakurnia/.gradle/caches/transforms-2/files-2.1/f52d08a4f4ab1dbf4718e040ec1a8c1a/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0-rc01] /Users/rizkycitrakurnia/.gradle/caches/transforms-2/files-2.1/9855ff4953f55391f2225034e586da7c/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0-rc01] /Users/rizkycitrakurnia/.gradle/caches/transforms-2/files-2.1/9855ff4953f55391f2225034e586da7c/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-process:2.0.0] /Users/rizkycitrakurnia/.gradle/caches/transforms-2/files-2.1/5a57c3e62430f6e023e0805137297779/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.0.0] /Users/rizkycitrakurnia/.gradle/caches/transforms-2/files-2.1/5a57c3e62430f6e023e0805137297779/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-service:2.0.0] /Users/rizkycitrakurnia/.gradle/caches/transforms-2/files-2.1/b7bea5576de5f055881f6b517d7a9b8f/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-service:2.0.0] /Users/rizkycitrakurnia/.gradle/caches/transforms-2/files-2.1/b7bea5576de5f055881f6b517d7a9b8f/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0-rc01] /Users/rizkycitrakurnia/.gradle/caches/transforms-2/files-2.1/9205a509cd059f9f0132c8da8ebe0b60/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0-rc01] /Users/rizkycitrakurnia/.gradle/caches/transforms-2/files-2.1/9205a509cd059f9f0132c8da8ebe0b60/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0-rc01] /Users/rizkycitrakurnia/.gradle/caches/transforms-2/files-2.1/a7967140b3571ce39d71550e34f5b9d7/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0-rc01] /Users/rizkycitrakurnia/.gradle/caches/transforms-2/files-2.1/a7967140b3571ce39d71550e34f5b9d7/AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.0.0-rc01] /Users/rizkycitrakurnia/.gradle/caches/transforms-2/files-2.1/ed3a7b0561f1ed29566f09730227dd4b/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.0.0-rc01] /Users/rizkycitrakurnia/.gradle/caches/transforms-2/files-2.1/ed3a7b0561f1ed29566f09730227dd4b/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/rizkycitrakurnia/.gradle/caches/transforms-2/files-2.1/42e750257dc64c5148dd80134981f509/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/rizkycitrakurnia/.gradle/caches/transforms-2/files-2.1/42e750257dc64c5148dd80134981f509/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/rizkycitrakurnia/.gradle/caches/transforms-2/files-2.1/7c2426c6875a857dce1d08fc7ea04be2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/rizkycitrakurnia/.gradle/caches/transforms-2/files-2.1/7c2426c6875a857dce1d08fc7ea04be2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/rizkycitrakurnia/.gradle/caches/transforms-2/files-2.1/01efba8eb4103c40d70731c99044f92d/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/rizkycitrakurnia/.gradle/caches/transforms-2/files-2.1/01efba8eb4103c40d70731c99044f92d/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.1] /Users/rizkycitrakurnia/.gradle/caches/transforms-2/files-2.1/bbf1dd016f4818bb4fb36b44b74410d3/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.1] /Users/rizkycitrakurnia/.gradle/caches/transforms-2/files-2.1/bbf1dd016f4818bb4fb36b44b74410d3/AndroidManifest.xml:20:5-44
+MERGED from [androidx.sqlite:sqlite-framework:2.0.1] /Users/rizkycitrakurnia/.gradle/caches/transforms-2/files-2.1/42c27cf9011fcc766a35501458766088/AndroidManifest.xml:20:5-44
+MERGED from [androidx.sqlite:sqlite-framework:2.0.1] /Users/rizkycitrakurnia/.gradle/caches/transforms-2/files-2.1/42c27cf9011fcc766a35501458766088/AndroidManifest.xml:20:5-44
+MERGED from [androidx.sqlite:sqlite:2.0.1] /Users/rizkycitrakurnia/.gradle/caches/transforms-2/files-2.1/be663770cedb0cacca629acb42c8a4a5/AndroidManifest.xml:20:5-44
+MERGED from [androidx.sqlite:sqlite:2.0.1] /Users/rizkycitrakurnia/.gradle/caches/transforms-2/files-2.1/be663770cedb0cacca629acb42c8a4a5/AndroidManifest.xml:20:5-44
 INJECTED from /Users/rizkycitrakurnia/Desktop/work-manager-sample/app/src/main/AndroidManifest.xml
 INJECTED from /Users/rizkycitrakurnia/Desktop/work-manager-sample/app/src/main/AndroidManifest.xml
 	android:targetSdkVersion
@@ -111,3 +197,211 @@ INJECTED from /Users/rizkycitrakurnia/Desktop/work-manager-sample/app/src/main/A
 		INJECTED from /Users/rizkycitrakurnia/Desktop/work-manager-sample/app/src/main/AndroidManifest.xml
 		ADDED from /Users/rizkycitrakurnia/Desktop/work-manager-sample/app/src/main/AndroidManifest.xml
 		INJECTED from /Users/rizkycitrakurnia/Desktop/work-manager-sample/app/src/main/AndroidManifest.xml
+uses-permission#android.permission.WAKE_LOCK
+ADDED from [androidx.work:work-runtime:2.1.0] /Users/rizkycitrakurnia/.gradle/caches/transforms-2/files-2.1/2130a4fadc98479621255d24e98bc30a/AndroidManifest.xml:25:5-68
+	android:name
+		ADDED from [androidx.work:work-runtime:2.1.0] /Users/rizkycitrakurnia/.gradle/caches/transforms-2/files-2.1/2130a4fadc98479621255d24e98bc30a/AndroidManifest.xml:25:22-65
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [androidx.work:work-runtime:2.1.0] /Users/rizkycitrakurnia/.gradle/caches/transforms-2/files-2.1/2130a4fadc98479621255d24e98bc30a/AndroidManifest.xml:26:5-79
+	android:name
+		ADDED from [androidx.work:work-runtime:2.1.0] /Users/rizkycitrakurnia/.gradle/caches/transforms-2/files-2.1/2130a4fadc98479621255d24e98bc30a/AndroidManifest.xml:26:22-76
+uses-permission#android.permission.RECEIVE_BOOT_COMPLETED
+ADDED from [androidx.work:work-runtime:2.1.0] /Users/rizkycitrakurnia/.gradle/caches/transforms-2/files-2.1/2130a4fadc98479621255d24e98bc30a/AndroidManifest.xml:27:5-81
+	android:name
+		ADDED from [androidx.work:work-runtime:2.1.0] /Users/rizkycitrakurnia/.gradle/caches/transforms-2/files-2.1/2130a4fadc98479621255d24e98bc30a/AndroidManifest.xml:27:22-78
+provider#androidx.work.impl.WorkManagerInitializer
+ADDED from [androidx.work:work-runtime:2.1.0] /Users/rizkycitrakurnia/.gradle/caches/transforms-2/files-2.1/2130a4fadc98479621255d24e98bc30a/AndroidManifest.xml:30:9-36:35
+	android:authorities
+		ADDED from [androidx.work:work-runtime:2.1.0] /Users/rizkycitrakurnia/.gradle/caches/transforms-2/files-2.1/2130a4fadc98479621255d24e98bc30a/AndroidManifest.xml:32:13-68
+	android:multiprocess
+		ADDED from [androidx.work:work-runtime:2.1.0] /Users/rizkycitrakurnia/.gradle/caches/transforms-2/files-2.1/2130a4fadc98479621255d24e98bc30a/AndroidManifest.xml:35:13-40
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.1.0] /Users/rizkycitrakurnia/.gradle/caches/transforms-2/files-2.1/2130a4fadc98479621255d24e98bc30a/AndroidManifest.xml:34:13-37
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.1.0] /Users/rizkycitrakurnia/.gradle/caches/transforms-2/files-2.1/2130a4fadc98479621255d24e98bc30a/AndroidManifest.xml:36:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.1.0] /Users/rizkycitrakurnia/.gradle/caches/transforms-2/files-2.1/2130a4fadc98479621255d24e98bc30a/AndroidManifest.xml:33:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.1.0] /Users/rizkycitrakurnia/.gradle/caches/transforms-2/files-2.1/2130a4fadc98479621255d24e98bc30a/AndroidManifest.xml:31:13-69
+service#androidx.work.impl.background.systemalarm.SystemAlarmService
+ADDED from [androidx.work:work-runtime:2.1.0] /Users/rizkycitrakurnia/.gradle/caches/transforms-2/files-2.1/2130a4fadc98479621255d24e98bc30a/AndroidManifest.xml:38:9-43:35
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.1.0] /Users/rizkycitrakurnia/.gradle/caches/transforms-2/files-2.1/2130a4fadc98479621255d24e98bc30a/AndroidManifest.xml:41:13-72
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.1.0] /Users/rizkycitrakurnia/.gradle/caches/transforms-2/files-2.1/2130a4fadc98479621255d24e98bc30a/AndroidManifest.xml:42:13-37
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.1.0] /Users/rizkycitrakurnia/.gradle/caches/transforms-2/files-2.1/2130a4fadc98479621255d24e98bc30a/AndroidManifest.xml:43:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.1.0] /Users/rizkycitrakurnia/.gradle/caches/transforms-2/files-2.1/2130a4fadc98479621255d24e98bc30a/AndroidManifest.xml:40:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.1.0] /Users/rizkycitrakurnia/.gradle/caches/transforms-2/files-2.1/2130a4fadc98479621255d24e98bc30a/AndroidManifest.xml:39:13-88
+service#androidx.work.impl.background.systemjob.SystemJobService
+ADDED from [androidx.work:work-runtime:2.1.0] /Users/rizkycitrakurnia/.gradle/caches/transforms-2/files-2.1/2130a4fadc98479621255d24e98bc30a/AndroidManifest.xml:44:9-50:35
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.1.0] /Users/rizkycitrakurnia/.gradle/caches/transforms-2/files-2.1/2130a4fadc98479621255d24e98bc30a/AndroidManifest.xml:47:13-70
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.1.0] /Users/rizkycitrakurnia/.gradle/caches/transforms-2/files-2.1/2130a4fadc98479621255d24e98bc30a/AndroidManifest.xml:48:13-36
+	android:permission
+		ADDED from [androidx.work:work-runtime:2.1.0] /Users/rizkycitrakurnia/.gradle/caches/transforms-2/files-2.1/2130a4fadc98479621255d24e98bc30a/AndroidManifest.xml:49:13-69
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.1.0] /Users/rizkycitrakurnia/.gradle/caches/transforms-2/files-2.1/2130a4fadc98479621255d24e98bc30a/AndroidManifest.xml:50:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.1.0] /Users/rizkycitrakurnia/.gradle/caches/transforms-2/files-2.1/2130a4fadc98479621255d24e98bc30a/AndroidManifest.xml:46:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.1.0] /Users/rizkycitrakurnia/.gradle/caches/transforms-2/files-2.1/2130a4fadc98479621255d24e98bc30a/AndroidManifest.xml:45:13-84
+receiver#androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver
+ADDED from [androidx.work:work-runtime:2.1.0] /Users/rizkycitrakurnia/.gradle/caches/transforms-2/files-2.1/2130a4fadc98479621255d24e98bc30a/AndroidManifest.xml:52:9-57:35
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.1.0] /Users/rizkycitrakurnia/.gradle/caches/transforms-2/files-2.1/2130a4fadc98479621255d24e98bc30a/AndroidManifest.xml:55:13-35
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.1.0] /Users/rizkycitrakurnia/.gradle/caches/transforms-2/files-2.1/2130a4fadc98479621255d24e98bc30a/AndroidManifest.xml:56:13-37
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.1.0] /Users/rizkycitrakurnia/.gradle/caches/transforms-2/files-2.1/2130a4fadc98479621255d24e98bc30a/AndroidManifest.xml:57:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.1.0] /Users/rizkycitrakurnia/.gradle/caches/transforms-2/files-2.1/2130a4fadc98479621255d24e98bc30a/AndroidManifest.xml:54:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.1.0] /Users/rizkycitrakurnia/.gradle/caches/transforms-2/files-2.1/2130a4fadc98479621255d24e98bc30a/AndroidManifest.xml:53:13-88
+receiver#androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy
+ADDED from [androidx.work:work-runtime:2.1.0] /Users/rizkycitrakurnia/.gradle/caches/transforms-2/files-2.1/2130a4fadc98479621255d24e98bc30a/AndroidManifest.xml:58:9-68:20
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.1.0] /Users/rizkycitrakurnia/.gradle/caches/transforms-2/files-2.1/2130a4fadc98479621255d24e98bc30a/AndroidManifest.xml:61:13-36
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.1.0] /Users/rizkycitrakurnia/.gradle/caches/transforms-2/files-2.1/2130a4fadc98479621255d24e98bc30a/AndroidManifest.xml:62:13-37
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.1.0] /Users/rizkycitrakurnia/.gradle/caches/transforms-2/files-2.1/2130a4fadc98479621255d24e98bc30a/AndroidManifest.xml:63:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.1.0] /Users/rizkycitrakurnia/.gradle/caches/transforms-2/files-2.1/2130a4fadc98479621255d24e98bc30a/AndroidManifest.xml:60:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.1.0] /Users/rizkycitrakurnia/.gradle/caches/transforms-2/files-2.1/2130a4fadc98479621255d24e98bc30a/AndroidManifest.xml:59:13-106
+intent-filter#action:name:android.intent.action.ACTION_POWER_CONNECTED+action:name:android.intent.action.ACTION_POWER_DISCONNECTED
+ADDED from [androidx.work:work-runtime:2.1.0] /Users/rizkycitrakurnia/.gradle/caches/transforms-2/files-2.1/2130a4fadc98479621255d24e98bc30a/AndroidManifest.xml:64:13-67:29
+action#android.intent.action.ACTION_POWER_CONNECTED
+ADDED from [androidx.work:work-runtime:2.1.0] /Users/rizkycitrakurnia/.gradle/caches/transforms-2/files-2.1/2130a4fadc98479621255d24e98bc30a/AndroidManifest.xml:65:17-87
+	android:name
+		ADDED from [androidx.work:work-runtime:2.1.0] /Users/rizkycitrakurnia/.gradle/caches/transforms-2/files-2.1/2130a4fadc98479621255d24e98bc30a/AndroidManifest.xml:65:25-84
+action#android.intent.action.ACTION_POWER_DISCONNECTED
+ADDED from [androidx.work:work-runtime:2.1.0] /Users/rizkycitrakurnia/.gradle/caches/transforms-2/files-2.1/2130a4fadc98479621255d24e98bc30a/AndroidManifest.xml:66:17-90
+	android:name
+		ADDED from [androidx.work:work-runtime:2.1.0] /Users/rizkycitrakurnia/.gradle/caches/transforms-2/files-2.1/2130a4fadc98479621255d24e98bc30a/AndroidManifest.xml:66:25-87
+receiver#androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy
+ADDED from [androidx.work:work-runtime:2.1.0] /Users/rizkycitrakurnia/.gradle/caches/transforms-2/files-2.1/2130a4fadc98479621255d24e98bc30a/AndroidManifest.xml:69:9-79:20
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.1.0] /Users/rizkycitrakurnia/.gradle/caches/transforms-2/files-2.1/2130a4fadc98479621255d24e98bc30a/AndroidManifest.xml:72:13-36
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.1.0] /Users/rizkycitrakurnia/.gradle/caches/transforms-2/files-2.1/2130a4fadc98479621255d24e98bc30a/AndroidManifest.xml:73:13-37
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.1.0] /Users/rizkycitrakurnia/.gradle/caches/transforms-2/files-2.1/2130a4fadc98479621255d24e98bc30a/AndroidManifest.xml:74:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.1.0] /Users/rizkycitrakurnia/.gradle/caches/transforms-2/files-2.1/2130a4fadc98479621255d24e98bc30a/AndroidManifest.xml:71:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.1.0] /Users/rizkycitrakurnia/.gradle/caches/transforms-2/files-2.1/2130a4fadc98479621255d24e98bc30a/AndroidManifest.xml:70:13-104
+intent-filter#action:name:android.intent.action.BATTERY_LOW+action:name:android.intent.action.BATTERY_OKAY
+ADDED from [androidx.work:work-runtime:2.1.0] /Users/rizkycitrakurnia/.gradle/caches/transforms-2/files-2.1/2130a4fadc98479621255d24e98bc30a/AndroidManifest.xml:75:13-78:29
+action#android.intent.action.BATTERY_OKAY
+ADDED from [androidx.work:work-runtime:2.1.0] /Users/rizkycitrakurnia/.gradle/caches/transforms-2/files-2.1/2130a4fadc98479621255d24e98bc30a/AndroidManifest.xml:76:17-77
+	android:name
+		ADDED from [androidx.work:work-runtime:2.1.0] /Users/rizkycitrakurnia/.gradle/caches/transforms-2/files-2.1/2130a4fadc98479621255d24e98bc30a/AndroidManifest.xml:76:25-74
+action#android.intent.action.BATTERY_LOW
+ADDED from [androidx.work:work-runtime:2.1.0] /Users/rizkycitrakurnia/.gradle/caches/transforms-2/files-2.1/2130a4fadc98479621255d24e98bc30a/AndroidManifest.xml:77:17-76
+	android:name
+		ADDED from [androidx.work:work-runtime:2.1.0] /Users/rizkycitrakurnia/.gradle/caches/transforms-2/files-2.1/2130a4fadc98479621255d24e98bc30a/AndroidManifest.xml:77:25-73
+receiver#androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy
+ADDED from [androidx.work:work-runtime:2.1.0] /Users/rizkycitrakurnia/.gradle/caches/transforms-2/files-2.1/2130a4fadc98479621255d24e98bc30a/AndroidManifest.xml:80:9-90:20
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.1.0] /Users/rizkycitrakurnia/.gradle/caches/transforms-2/files-2.1/2130a4fadc98479621255d24e98bc30a/AndroidManifest.xml:83:13-36
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.1.0] /Users/rizkycitrakurnia/.gradle/caches/transforms-2/files-2.1/2130a4fadc98479621255d24e98bc30a/AndroidManifest.xml:84:13-37
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.1.0] /Users/rizkycitrakurnia/.gradle/caches/transforms-2/files-2.1/2130a4fadc98479621255d24e98bc30a/AndroidManifest.xml:85:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.1.0] /Users/rizkycitrakurnia/.gradle/caches/transforms-2/files-2.1/2130a4fadc98479621255d24e98bc30a/AndroidManifest.xml:82:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.1.0] /Users/rizkycitrakurnia/.gradle/caches/transforms-2/files-2.1/2130a4fadc98479621255d24e98bc30a/AndroidManifest.xml:81:13-104
+intent-filter#action:name:android.intent.action.DEVICE_STORAGE_LOW+action:name:android.intent.action.DEVICE_STORAGE_OK
+ADDED from [androidx.work:work-runtime:2.1.0] /Users/rizkycitrakurnia/.gradle/caches/transforms-2/files-2.1/2130a4fadc98479621255d24e98bc30a/AndroidManifest.xml:86:13-89:29
+action#android.intent.action.DEVICE_STORAGE_LOW
+ADDED from [androidx.work:work-runtime:2.1.0] /Users/rizkycitrakurnia/.gradle/caches/transforms-2/files-2.1/2130a4fadc98479621255d24e98bc30a/AndroidManifest.xml:87:17-83
+	android:name
+		ADDED from [androidx.work:work-runtime:2.1.0] /Users/rizkycitrakurnia/.gradle/caches/transforms-2/files-2.1/2130a4fadc98479621255d24e98bc30a/AndroidManifest.xml:87:25-80
+action#android.intent.action.DEVICE_STORAGE_OK
+ADDED from [androidx.work:work-runtime:2.1.0] /Users/rizkycitrakurnia/.gradle/caches/transforms-2/files-2.1/2130a4fadc98479621255d24e98bc30a/AndroidManifest.xml:88:17-82
+	android:name
+		ADDED from [androidx.work:work-runtime:2.1.0] /Users/rizkycitrakurnia/.gradle/caches/transforms-2/files-2.1/2130a4fadc98479621255d24e98bc30a/AndroidManifest.xml:88:25-79
+receiver#androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy
+ADDED from [androidx.work:work-runtime:2.1.0] /Users/rizkycitrakurnia/.gradle/caches/transforms-2/files-2.1/2130a4fadc98479621255d24e98bc30a/AndroidManifest.xml:91:9-100:20
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.1.0] /Users/rizkycitrakurnia/.gradle/caches/transforms-2/files-2.1/2130a4fadc98479621255d24e98bc30a/AndroidManifest.xml:94:13-36
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.1.0] /Users/rizkycitrakurnia/.gradle/caches/transforms-2/files-2.1/2130a4fadc98479621255d24e98bc30a/AndroidManifest.xml:95:13-37
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.1.0] /Users/rizkycitrakurnia/.gradle/caches/transforms-2/files-2.1/2130a4fadc98479621255d24e98bc30a/AndroidManifest.xml:96:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.1.0] /Users/rizkycitrakurnia/.gradle/caches/transforms-2/files-2.1/2130a4fadc98479621255d24e98bc30a/AndroidManifest.xml:93:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.1.0] /Users/rizkycitrakurnia/.gradle/caches/transforms-2/files-2.1/2130a4fadc98479621255d24e98bc30a/AndroidManifest.xml:92:13-103
+intent-filter#action:name:android.net.conn.CONNECTIVITY_CHANGE
+ADDED from [androidx.work:work-runtime:2.1.0] /Users/rizkycitrakurnia/.gradle/caches/transforms-2/files-2.1/2130a4fadc98479621255d24e98bc30a/AndroidManifest.xml:97:13-99:29
+action#android.net.conn.CONNECTIVITY_CHANGE
+ADDED from [androidx.work:work-runtime:2.1.0] /Users/rizkycitrakurnia/.gradle/caches/transforms-2/files-2.1/2130a4fadc98479621255d24e98bc30a/AndroidManifest.xml:98:17-79
+	android:name
+		ADDED from [androidx.work:work-runtime:2.1.0] /Users/rizkycitrakurnia/.gradle/caches/transforms-2/files-2.1/2130a4fadc98479621255d24e98bc30a/AndroidManifest.xml:98:25-76
+receiver#androidx.work.impl.background.systemalarm.RescheduleReceiver
+ADDED from [androidx.work:work-runtime:2.1.0] /Users/rizkycitrakurnia/.gradle/caches/transforms-2/files-2.1/2130a4fadc98479621255d24e98bc30a/AndroidManifest.xml:101:9-112:20
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.1.0] /Users/rizkycitrakurnia/.gradle/caches/transforms-2/files-2.1/2130a4fadc98479621255d24e98bc30a/AndroidManifest.xml:104:13-36
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.1.0] /Users/rizkycitrakurnia/.gradle/caches/transforms-2/files-2.1/2130a4fadc98479621255d24e98bc30a/AndroidManifest.xml:105:13-37
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.1.0] /Users/rizkycitrakurnia/.gradle/caches/transforms-2/files-2.1/2130a4fadc98479621255d24e98bc30a/AndroidManifest.xml:106:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.1.0] /Users/rizkycitrakurnia/.gradle/caches/transforms-2/files-2.1/2130a4fadc98479621255d24e98bc30a/AndroidManifest.xml:103:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.1.0] /Users/rizkycitrakurnia/.gradle/caches/transforms-2/files-2.1/2130a4fadc98479621255d24e98bc30a/AndroidManifest.xml:102:13-88
+intent-filter#action:name:android.intent.action.BOOT_COMPLETED+action:name:android.intent.action.TIMEZONE_CHANGED+action:name:android.intent.action.TIME_SET
+ADDED from [androidx.work:work-runtime:2.1.0] /Users/rizkycitrakurnia/.gradle/caches/transforms-2/files-2.1/2130a4fadc98479621255d24e98bc30a/AndroidManifest.xml:107:13-111:29
+action#android.intent.action.BOOT_COMPLETED
+ADDED from [androidx.work:work-runtime:2.1.0] /Users/rizkycitrakurnia/.gradle/caches/transforms-2/files-2.1/2130a4fadc98479621255d24e98bc30a/AndroidManifest.xml:108:17-79
+	android:name
+		ADDED from [androidx.work:work-runtime:2.1.0] /Users/rizkycitrakurnia/.gradle/caches/transforms-2/files-2.1/2130a4fadc98479621255d24e98bc30a/AndroidManifest.xml:108:25-76
+action#android.intent.action.TIME_SET
+ADDED from [androidx.work:work-runtime:2.1.0] /Users/rizkycitrakurnia/.gradle/caches/transforms-2/files-2.1/2130a4fadc98479621255d24e98bc30a/AndroidManifest.xml:109:17-73
+	android:name
+		ADDED from [androidx.work:work-runtime:2.1.0] /Users/rizkycitrakurnia/.gradle/caches/transforms-2/files-2.1/2130a4fadc98479621255d24e98bc30a/AndroidManifest.xml:109:25-70
+action#android.intent.action.TIMEZONE_CHANGED
+ADDED from [androidx.work:work-runtime:2.1.0] /Users/rizkycitrakurnia/.gradle/caches/transforms-2/files-2.1/2130a4fadc98479621255d24e98bc30a/AndroidManifest.xml:110:17-81
+	android:name
+		ADDED from [androidx.work:work-runtime:2.1.0] /Users/rizkycitrakurnia/.gradle/caches/transforms-2/files-2.1/2130a4fadc98479621255d24e98bc30a/AndroidManifest.xml:110:25-78
+receiver#androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver
+ADDED from [androidx.work:work-runtime:2.1.0] /Users/rizkycitrakurnia/.gradle/caches/transforms-2/files-2.1/2130a4fadc98479621255d24e98bc30a/AndroidManifest.xml:113:9-122:20
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.1.0] /Users/rizkycitrakurnia/.gradle/caches/transforms-2/files-2.1/2130a4fadc98479621255d24e98bc30a/AndroidManifest.xml:116:13-72
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.1.0] /Users/rizkycitrakurnia/.gradle/caches/transforms-2/files-2.1/2130a4fadc98479621255d24e98bc30a/AndroidManifest.xml:117:13-37
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.1.0] /Users/rizkycitrakurnia/.gradle/caches/transforms-2/files-2.1/2130a4fadc98479621255d24e98bc30a/AndroidManifest.xml:118:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.1.0] /Users/rizkycitrakurnia/.gradle/caches/transforms-2/files-2.1/2130a4fadc98479621255d24e98bc30a/AndroidManifest.xml:115:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.1.0] /Users/rizkycitrakurnia/.gradle/caches/transforms-2/files-2.1/2130a4fadc98479621255d24e98bc30a/AndroidManifest.xml:114:13-99
+intent-filter#action:name:androidx.work.impl.background.systemalarm.UpdateProxies
+ADDED from [androidx.work:work-runtime:2.1.0] /Users/rizkycitrakurnia/.gradle/caches/transforms-2/files-2.1/2130a4fadc98479621255d24e98bc30a/AndroidManifest.xml:119:13-121:29
+action#androidx.work.impl.background.systemalarm.UpdateProxies
+ADDED from [androidx.work:work-runtime:2.1.0] /Users/rizkycitrakurnia/.gradle/caches/transforms-2/files-2.1/2130a4fadc98479621255d24e98bc30a/AndroidManifest.xml:120:17-98
+	android:name
+		ADDED from [androidx.work:work-runtime:2.1.0] /Users/rizkycitrakurnia/.gradle/caches/transforms-2/files-2.1/2130a4fadc98479621255d24e98bc30a/AndroidManifest.xml:120:25-95
+service#androidx.room.MultiInstanceInvalidationService
+ADDED from [androidx.room:room-runtime:2.1.0] /Users/rizkycitrakurnia/.gradle/caches/transforms-2/files-2.1/f73e05ee384a83395c21fed1ccdcf3b2/AndroidManifest.xml:25:9-27:40
+	android:exported
+		ADDED from [androidx.room:room-runtime:2.1.0] /Users/rizkycitrakurnia/.gradle/caches/transforms-2/files-2.1/f73e05ee384a83395c21fed1ccdcf3b2/AndroidManifest.xml:27:13-37
+	android:name
+		ADDED from [androidx.room:room-runtime:2.1.0] /Users/rizkycitrakurnia/.gradle/caches/transforms-2/files-2.1/f73e05ee384a83395c21fed1ccdcf3b2/AndroidManifest.xml:26:13-74
+provider#androidx.lifecycle.ProcessLifecycleOwnerInitializer
+ADDED from [androidx.lifecycle:lifecycle-process:2.0.0] /Users/rizkycitrakurnia/.gradle/caches/transforms-2/files-2.1/5a57c3e62430f6e023e0805137297779/AndroidManifest.xml:23:9-27:43
+	android:authorities
+		ADDED from [androidx.lifecycle:lifecycle-process:2.0.0] /Users/rizkycitrakurnia/.gradle/caches/transforms-2/files-2.1/5a57c3e62430f6e023e0805137297779/AndroidManifest.xml:25:13-69
+	android:multiprocess
+		ADDED from [androidx.lifecycle:lifecycle-process:2.0.0] /Users/rizkycitrakurnia/.gradle/caches/transforms-2/files-2.1/5a57c3e62430f6e023e0805137297779/AndroidManifest.xml:27:13-40
+	android:exported
+		ADDED from [androidx.lifecycle:lifecycle-process:2.0.0] /Users/rizkycitrakurnia/.gradle/caches/transforms-2/files-2.1/5a57c3e62430f6e023e0805137297779/AndroidManifest.xml:26:13-37
+	android:name
+		ADDED from [androidx.lifecycle:lifecycle-process:2.0.0] /Users/rizkycitrakurnia/.gradle/caches/transforms-2/files-2.1/5a57c3e62430f6e023e0805137297779/AndroidManifest.xml:24:13-79
