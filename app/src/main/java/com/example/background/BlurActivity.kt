@@ -24,6 +24,8 @@ import android.widget.Button
 import android.widget.ImageView
 import android.widget.ProgressBar
 import android.widget.RadioGroup
+import androidx.lifecycle.Observer
+import androidx.work.WorkInfo
 import com.bumptech.glide.Glide
 
 
@@ -52,8 +54,29 @@ class BlurActivity : AppCompatActivity() {
             Glide.with(this).load(imageUri).into(imageView)
         }
 
+        // Show work status, added in onCreate()
+        viewModel.outputWorkInfos.observe(this, workInfosObserver())
+
         setOnclickListener()
 
+    }
+
+    private fun workInfosObserver(): Observer<List<WorkInfo>> {
+        return Observer { listWorkInfo ->
+            if (listWorkInfo.isNullOrEmpty()) {
+                return@Observer
+            }
+
+            // We only care about the one output status.
+            // Every continuation has only one worker tagged TAG_OUTPUT
+            val workInfo = listWorkInfo[0]
+
+            if (workInfo.state.isFinished) {
+                showWorkFinished()
+            } else {
+                showWorkInProgress()
+            }
+        }
     }
 
     private fun setOnclickListener() {
