@@ -60,7 +60,14 @@ class BlurActivity : AppCompatActivity() {
 
         setOnclickListener()
         outputClickListener()
+        cancelWorkListener()
 
+    }
+
+    private fun cancelWorkListener() {
+        cancelButton.setOnClickListener {
+            viewModel.cancelWork()
+        }
     }
 
     private fun outputClickListener() {
