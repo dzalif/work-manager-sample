@@ -77,8 +77,16 @@ class BlurViewModel(application: Application) : AndroidViewModel(application) {
             continuation = continuation.then(blurBuilder.build())
         }
 
+        //create constraints
+        val constraints = Constraints.Builder()
+                .setRequiresCharging(true)
+                .build()
+
         // Add WorkRequest to save the image to the filesystem
-        val save = OneTimeWorkRequestBuilder<SaveImageToFileWorker>().addTag(TAG_OUTPUT).build()
+        val save = OneTimeWorkRequestBuilder<SaveImageToFileWorker>()
+                .setConstraints(constraints)
+                .addTag(TAG_OUTPUT)
+                .build()
 
         continuation = continuation.then(save)
 
@@ -86,7 +94,7 @@ class BlurViewModel(application: Application) : AndroidViewModel(application) {
         continuation.enqueue()
     }
 
-    fun createInputDataForUri(): Data {
+    private fun createInputDataForUri(): Data {
         val builder = Data.Builder()
         imageUri?.let {
             builder.putString(KEY_IMAGE_URI, imageUri.toString())
