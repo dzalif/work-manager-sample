@@ -16,6 +16,7 @@
 
 package com.example.background
 
+import android.content.Intent
 import androidx.lifecycle.ViewModelProviders
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
@@ -58,7 +59,19 @@ class BlurActivity : AppCompatActivity() {
         viewModel.outputWorkInfos.observe(this, workInfosObserver())
 
         setOnclickListener()
+        outputClickListener()
 
+    }
+
+    private fun outputClickListener() {
+        outputButton.setOnClickListener {
+            viewModel.outputUri?.let {currUri ->
+                val actionView = Intent(Intent.ACTION_VIEW, currUri)
+                actionView.resolveActivity(packageManager)?.run {
+                    startActivity(actionView)
+                }
+            }
+        }
     }
 
     private fun workInfosObserver(): Observer<List<WorkInfo>> {
@@ -73,6 +86,15 @@ class BlurActivity : AppCompatActivity() {
 
             if (workInfo.state.isFinished) {
                 showWorkFinished()
+
+                // Normally this processing, which is not directly related to drawing views on
+                // screen would be in the ViewModel. For simplicity we are keeping it here.
+                val outputImageUri = workInfo.outputData.getString(KEY_IMAGE_URI)
+                // If there is an output file show "See File" button
+                if (!outputImageUri.isNullOrEmpty()) {
+                    viewModel.setOutputUri(outputImageUri)
+                    outputButton.visibility = View.VISIBLE
+                }
             } else {
                 showWorkInProgress()
             }
